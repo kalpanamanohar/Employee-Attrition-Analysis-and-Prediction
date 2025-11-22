@@ -70,19 +70,50 @@ Both models are trained, tuned, and saved as `.pkl` files for easy deployment in
 ### 🔸 3. Hyperparameter Tuning
 - `RandomizedSearchCV` used for model optimization  
 
-### 🔸 4. Evaluation Metrics
-**Attrition (Classification):**
-- Accuracy  
-- Precision  
-- Recall  
-- F1 Score  
-- ROC-AUC  
+## 📈 Evaluation Metrics
 
-**Promotion (Regression):**
-- MSE  
-- RMSE  
-- MAE  
-- R² Score  
+### 🧮 Attrition Prediction (Classification)
+| Metric | Description |
+|--------|--------------|
+| Accuracy | Overall correctness of predictions |
+| Precision | True positives out of predicted positives |
+| Recall | True positives out of actual positives |
+| F1 Score | Balance between precision and recall |
+| ROC-AUC | Discriminative power of the model |
 
 ---
+
+### 📊 Promotion Likelihood (Regression)
+| Metric | Description |
+|--------|--------------|
+| MSE | Mean squared difference between predicted & actual values |
+| RMSE | Root Mean Squared Error |
+| MAE | Mean Absolute Error |
+| R² | Variance explained by the model |
+
+---
+
+## 🛠️ Tech Stack
+| Component | Tool/Language |
+|------------|---------------|
+| Data Handling | Python (Pandas, NumPy) |
+| Machine Learning | scikit-learn, xgboost |
+| Visualizations | seaborn, matplotlib |
+| Imbalance Handling | imbalanced-learn |
+| Deployment | Streamlit |
+| Model Serialization | pickle |
+
+---
+
+## 🗂️ File Structure
+Employee-Attrition-Promotion/
+│
+├── Employee-Attrition.csv
+├── employee_dashboard.py # Streamlit dashboard
+│
+├── best_model_final.pkl # Best attrition model
+├── best_promotion_model.pkl # Best promotion model
+│
+├── requirements.txt
+└── README.md
 
