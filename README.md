@@ -106,14 +106,12 @@ Both models are trained, tuned, and saved as `.pkl` files for easy deployment in
 ---
 
 ## 🗂️ File Structure
-Employee-Attrition-Promotion/
-│
 ├── Employee-Attrition.csv
-├── employee_dashboard.py # Streamlit dashboard
-│
-├── best_model_final.pkl # Best attrition model
-├── best_promotion_model.pkl # Best promotion model
-│
+├── employee_dashboard.py          # Streamlit app
+├── employee_attrition_promotion.py # Training script
+├── best_model_final.pkl
+├── best_promotion_model.pkl
 ├── requirements.txt
 └── README.md
+
 
