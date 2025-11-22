@@ -18,7 +18,7 @@ Both models are trained, tuned, and saved as `.pkl` files for easy deployment in
 - **Features:** Age, Department, Monthly Income, Job Satisfaction, Years at Company, Marital Status, Overtime, etc.  
 
 ### 🔹 Predict Promotion Likelihood
-- **Goal:** Predict `YearsSinceLastPromotion` for an employee.  
+- **Goal:** estimate when an employee is likely to be promoted.  
 - **Target Variable:** `YearsSinceLastPromotion`  
 - **Features:** Job Level, Performance Rating, Total Working Years, Training, Work-Life Balance, etc.  
 
